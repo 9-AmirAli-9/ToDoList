@@ -31,9 +31,9 @@ class ToDoList:
         dnum=dnum-1
         todoitem.pop(dnum)
         
-print("---to do list---")
 choice=0
 while (choice !='6'):
+    print("---to do list---")
     print('1. Add ToDo Item')
     print('2. Display ToDo List')
     print('3. Mark Item as Done')
